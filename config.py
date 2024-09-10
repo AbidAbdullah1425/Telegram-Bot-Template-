@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26254064"))
 API_HASH = os.environ.get("API_HASH", "72541d6610ae7730e6135af9423b319c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002081959062"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002191732189"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5296584067"))
@@ -49,7 +49,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Claim your File After Joining my Channal")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "You have to join our Channels First")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
